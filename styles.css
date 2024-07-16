@@ -11,11 +11,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .content {
-    width: 80%;
+    width: 60%;
+    text-align: left;
+    max-width: fit-content;
+    margin-inline: auto;
 }
 
 .button {
     padding: 8px;
     text-align: center;
     border-radius: 10%;
+    color: #2a3;
+    transition: 0.25s;
+}
+.button:hover {
+    color: #070;
+    size: 110%;
+    font-size: 110%;
 }
