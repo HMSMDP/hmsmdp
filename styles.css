@@ -10,13 +10,12 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
+.content {
+    width: 80%;
 }
 
-td, th {
-    border: 1px solid #000000;
-    text-align: left;
+.button {
     padding: 8px;
+    text-align: center;
+    border-radius: 10%;
 }
